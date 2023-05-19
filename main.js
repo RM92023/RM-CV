@@ -1,6 +1,6 @@
 let menuVisible = false;
 //function that hidden or visible the menu
-function showHiddenMenu(){
+export function showHiddenMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
