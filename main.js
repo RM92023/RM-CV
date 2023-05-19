@@ -1,4 +1,3 @@
-
 let menuVisible = false;
 //function that hidden or visible the menu
 function showHiddenMenu(){
