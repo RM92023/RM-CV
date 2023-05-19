@@ -158,13 +158,15 @@ html{
 }
 
 .aboutMe .row .column{
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
 }
 
 .aboutMe .row .column h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .aboutMe .row .column ul{
@@ -191,6 +193,7 @@ html{
 .aboutMe .row .column .interestsContainer{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .aboutMe .row .column .interestsContainer .interests{
@@ -200,7 +203,7 @@ html{
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
     transition: .3s;
@@ -744,7 +747,8 @@ footer .socialMedia a:hover{
 }
 @media screen and (max-width:700px){
     .aboutMe .row{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
     .aboutMe .row .column{
         width: fit-content;
