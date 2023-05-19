@@ -1,6 +1,6 @@
 let menuVisible = false;
 //function that hidden or visible the menu
-export function showHiddenMenu(){
+function showHiddenMenu(){
     if(menuVisible){
         document.getElementById("nav").classList ="";
         menuVisible = false;
@@ -10,11 +10,21 @@ export function showHiddenMenu(){
     }
 }
 
+document.getElementById("nav-responsive").onclick = showHiddenMenu;
+
 function selection(){
     //Hidden the menu after the selection an option
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+
+document.getElementById("selection").onclick = selection;
+document.getElementById("selection1").onclick = selection;
+document.getElementById("selection2").onclick = selection;
+document.getElementById("selection3").onclick = selection;
+document.getElementById("selection4").onclick = selection;
+document.getElementById("selection5").onclick = selection;
+
 //animation of the skills
 function skillsEfects(){
     var skills = document.getElementById("skills");
