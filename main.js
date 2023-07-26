@@ -34,13 +34,13 @@ function skillsEfects(){
         skillMe[0].classList.add("javascript");
         skillMe[1].classList.add("htmlCss");
         skillMe[2].classList.add("python");
-        skillMe[3].classList.add("c");
+        skillMe[3].classList.add("moodle");
         skillMe[4].classList.add("gitGithub");
         skillMe[5].classList.add("teamWork");
         skillMe[6].classList.add("comunication");
         skillMe[7].classList.add("creativity");
         skillMe[8].classList.add("dedication");
-        skillMe[9].classList.add("projectManagement");
+        skillMe[9].classList.add("english");
     }
 }
 

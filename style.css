@@ -347,16 +347,16 @@ html{
 }
 @keyframes python {
     0%{width: 0%;}
-    100%{width: 2%;}
+    100%{width: 10%;}
 }
 
-.skills .skill .c{
+.skills .skill .moodle{
     width: 0%;
-    animation: 2s c forwards;
+    animation: 2s moodle forwards;
 }
-@keyframes c {
+@keyframes moodle {
     0%{width: 0%;}
-    100%{width: 92%;}
+    100%{width: 83%;}
 }
 
 .skills .skill .gitGithub{
@@ -404,13 +404,13 @@ html{
     100%{width: 65%;}
 }
 
-.skills .skill .projectManagement{
+.skills .skill .english{
     width: 0%;
-    animation: 2s projectManagement forwards;
+    animation: 2s english forwards;
 }
-@keyframes projectManagement {
+@keyframes english {
     0%{width: 0%;}
-    100%{width: 5%;}
+    100%{width: 35%;}
 }
 /*END SKILL SECTION*/
 
